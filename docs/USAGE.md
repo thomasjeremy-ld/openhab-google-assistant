@@ -105,7 +105,7 @@ NOTE: metadata is not (yet?) available via paperUI. Either you create your items
 
 #### Two-Factor-Authentication
 
-For some actions, Google recommends to use TFA (Two-Factor-Authentication) to prevent accidential or unauthorized triggers of sensitive actions. See [Two-factor authentication &nbsp;|&nbsp; Actions on Google Smart Home](https://developers.google.com/assistant/smarthome/develop/two-factor-authenticatiob).
+For some actions, Google recommends to use TFA (Two-Factor-Authentication) to prevent accidential or unauthorized triggers of sensitive actions. See [Two-factor authentication &nbsp;|&nbsp; Actions on Google Smart Home](https://developers.google.com/assistant/smarthome/develop/two-factor-authentication).
 
 The openHAB Google Assistant integration supports both _ackNeeded_ and _pinNeeded_. You can use both types on all devices types and traits.
 
@@ -158,7 +158,7 @@ The option _ordered_ will tell the system that your list is ordered and you will
 #### Blinds and similar devices
 
 Blinds should always use the `Rollershutter` item type.
-Since Google and openHAB use the oposite percentage value for "opened" or "closed", the action will tranlate this automatically.
+Since Google and openHAB use the oposite percentage value for "opened" or "closed", the action will translate this automatically.
 If the values are still inverted in your case, you can state the `[ inverted=true ]` option for all `Rollershutter` items.
 
 
